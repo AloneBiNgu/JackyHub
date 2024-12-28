@@ -1,5 +1,5 @@
 local s, source = pcall(function()
-    return game:HttpGet(('https://raw.githubusercontent.com/AloneBiNgu/JackyHub/refs/heads/main/%s'):format(tostring(game.PlaceId))
+    return game:HttpGet(('https://raw.githubusercontent.com/AloneBiNgu/JackyHub/refs/heads/main/%s'):format(tostring(game.PlaceId), true)
 end)
 
 if not source then
